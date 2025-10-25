@@ -20,6 +20,8 @@ namespace Regex_Larionova
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Classes.Passport> Passports = new List<Classes.Passport>(); 
+        public static MainWindow init;
         public MainWindow()
         {
             InitializeComponent();
@@ -36,6 +38,11 @@ namespace Regex_Larionova
         }
 
         private void Delete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+       public void LoadPassport()
         {
 
         }
