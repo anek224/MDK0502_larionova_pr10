@@ -51,7 +51,6 @@ namespace Regex_Larionova
             else
                 MessageBox.Show("Выберите паспорт");
             }
-
        public void LoadPassport()
         {
             lv_passport.Items.Clear();
